@@ -15,12 +15,16 @@ void main() {
 
   //x = 20.4;
 
+  double dx = 40.12;
+  print(dx);
+
   num k = 20;
   print(k);
   print(k.runtimeType.toString());
   k = 30.12;
   print(k);
   print(k.runtimeType.toString());
+
 
   var a = 20;
   print(a.runtimeType.toString());
@@ -31,7 +35,6 @@ void main() {
   var hex = 0xABC;
   print(hex);
   print(hex.runtimeType.toString());
-
   var c = 1.42e5;
   print(c);
 
