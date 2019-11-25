@@ -9,9 +9,6 @@
 3. 抽象类不能实例化，需要在子类中实现所有的抽象方法，而且子类不能是抽象类，才能实例化
 
 
-
-
-
  */
 abstract class ParentClass {
   void doSomething();
