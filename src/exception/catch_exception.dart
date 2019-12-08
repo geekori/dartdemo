@@ -5,9 +5,7 @@ import 'dart:io';
 void distanceTo() => throw ArgumentError('参数错误');
 
 void main() {
-  /*var x;
-  x = "123";
-  print(x / 30);*/
+
   try {
     distanceTo();
   } on FormatException {
@@ -17,7 +15,7 @@ void main() {
   } on ArgumentError catch(e){
     print('ArgumentError:' + e.message);
     rethrow;
-  } catch(e,s) {
+  } catch(e) {
     print(e);
 
   }
